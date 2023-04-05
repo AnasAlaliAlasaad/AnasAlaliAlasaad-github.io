@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="AR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Anas">
+<meta name="description" content="This is a game page">
+
+<title>Report a bug TOFA gaming</title>
+<link rel="icon" href="/img/TOFAgaming.jpeg" type="image/x-icon">
+<link rel="stylesheet" href="/TOFAgamingEN/AppCSS.css" type="text/css">
+
+
+
+
+<!-- Chat box -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #4e1e1e;
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #070101;
+  color: rgb(226, 24, 24);
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #fae7e7;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+
+</head>
+<body>
+<!--background picture-->
+<style>
+    body {
+      background-image: url('/img/Blue-and_purple_galaxy.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
+<!--menu bar-->
+<header>  
+    <nav>  
+    <ul>  
+    <li>
+    <a href="/TOFAgamingEN/MainPage.html"style="color:black"><img src="/img/Flag_of_the_United_Kingdom.png" alt="" style="width:30px;height:20px;"> EN</a>
+    &nbsp;|&nbsp;
+    <a href="/TOFAgamingAR/MainPage.html"style="color:black"><img src="/img/Flag_of_the_Arab_League.svg" alt="" style="width:30px;height:20px;"> AR</a>
+    </li>
+    <li>  
+    <a href="/TOFAgamingAR/MainPage.html"> القائمة الرئيسية </a>  
+    </li>  
+    <li>  
+    <a href="/TOFAgamingAR/AboutUs.html"> عنا </a>  
+    </li>  
+    <li>  
+    <a href="/TOFAgamingAR/ContactUs.html"> تواصل </a>  
+</li>  
+    
+ 
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+<li> <a href="#">  </a>  
+</li>
+
+
+ 
+    <li>  
+    <a href="/TOFAgamingAR/LoginPage.html"> تسجيل دخول</a>  
+    </li>  
+    </ul>  
+    </nav>  
+</header>  
+<p>
+<br>
+<br>
+</p>
+
+
+<!-- Comment box -->
+
+<h2>اخبرنا اذا كان هناك اي خطأ في الموقع</h2>
+<p>اضغط على الزر اسفل الصفحة لتشغيل الدردشة</p>
+<p>شكرا لمساعدتك لنا, سنقوم بالمتابعة</p>
+
+<button class="open-button" onclick="openForm()">محادثة</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>محادثة</h1>
+
+    <label for="msg"><b>رسالة</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">ارسل</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">اغلاق</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End page this must be in every page -->
+<footer>
+    <hr>
+    
+    <!--Reporting a bug page link-->
+    <h6 style="text-align:center;"><a href="/TOFAgamingAR/ReportABug.html" target="_blank">اخبار عن خطأ ما</a>
+    &nbsp;|&nbsp;
+    <!--contact with our pages-->
+    <a href="/TOFAgamingAR/OurPagesOnTheWeb.html" target="_blank">تابعنا</a></h6>
+    
+    <!--space-->
+    <nav></nav><h6 style="text-align: center;">سيرفر دسكورد: <a href="https://discord.gg/fZ4FPkpEax" style="color:rgb(26, 161, 214);">https://discord.gg/fZ4FPkpEax</a></nav></h6>
+    <br>
+    
+    <nav><h5 style="text-align:center;"><a href="#top">&uarr;عد الى البداية&uarr;</a></h5></nav>
+    <!--copyright-->
+    
+    <h4 style="text-align:center;"> &lt;&lt;&lt;&copy;TOFAgaming &gt;&gt;&gt;</h4>
+    
+    </footer>
+</body>
+</html>

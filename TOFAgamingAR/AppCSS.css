@@ -1,0 +1,73 @@
+/*basic for background color*/
+html{
+    font-size: 22px
+}
+body{
+    /*background-color:rgb(3, 167, 52);*/
+    color:rgb(255, 255, 255);
+}
+/*writing color*/
+a{
+    color:azure;
+}
+/*link word color*/
+a:visited {
+    color:rgb(228, 200, 200);
+}
+
+a:hover, a:active {
+    color:rgb(255, 255, 255);
+}
+
+/* centering the screen */
+body {
+    margin: auto;
+    width: 1500px; 
+    padding: 500px;
+    font-family: 'Arial', sans-serif; 
+    color: #f8e2e2;    
+}
+  
+
+/* this code is not working properly */
+/* Centered Image Code */
+/*
+  div {
+  display: flex;
+  justify-content:left;
+  
+  }
+
+*/
+
+/* making a menubar */
+
+body   
+{  
+height: 125vh;  
+margin-top: 35px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+background-color: rgb(18, 133, 209);  
+position: center;  
+left: 5;  
+right: 5;  
+top: 15px;  
+height: 50px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: blue;  
+text-decoration: none;  
+}  
